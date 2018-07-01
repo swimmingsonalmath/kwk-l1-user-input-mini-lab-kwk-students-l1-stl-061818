@@ -1,4 +1,9 @@
-def visit
+
+puts "Hello, would you like help planning your trip? put yes or no"
+gets.chomp
+
+
+ def visit
 puts "Where do you want to visit?"
 gets.chomp 
 end
