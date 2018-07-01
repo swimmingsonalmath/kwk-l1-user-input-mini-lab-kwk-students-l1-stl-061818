@@ -1,7 +1,7 @@
-
-puts "Hello, would you like help planning your trip? put yes or no"
+def name
+puts "Hello, would you like help planning your trip?What is your name?"
 gets.chomp
-
+end
 
  def visit
 puts "Where do you want to visit?"
@@ -20,4 +20,4 @@ puts"How many nights do you want to stay?"
 gets.chomp
 end 
 
-puts"So you will be going to #{visit} for #{nights} nights. You will stay at a #{stay} and eat #{food} food."
+puts"#{name} you will be going to #{visit} for #{nights} nights. You will stay at a #{stay} and eat #{food} food."
